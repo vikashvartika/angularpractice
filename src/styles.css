@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+.ptop {
+  margin-bottom: 20px;
+}
+
+.mainsection {
+  margin-top: 30px;
+}
+
+a.active {
+  text-decoration: underline;
+  background-color: hotpink;
+  color: #fff;
+  border-radius: 4px;
+}

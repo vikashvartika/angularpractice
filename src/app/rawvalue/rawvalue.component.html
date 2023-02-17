@@ -1,0 +1,30 @@
+<p>rawvalue works!</p>
+<div class="container">
+  <div class="row">
+    <form [formGroup]="reactiveForm" (ngSubmit)="submit()" class="col-xs-3">
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" formControlName="name" id="name" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="id">Id</label>
+        <input type="text" formControlName="id" id="id" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="company">Company</label>
+        <input type="text" formControlName="company" id="company" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="name">Email</label>
+        <input type="text" formControlName="email" id="email" class="form-control">
+      </div>
+      <button class="btn btn-primary mr-1" type="submit">
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
